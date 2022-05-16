@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Please update value in the {}  -->
 
-## Getting Started
+<h1 align="center">NextJS and Sanity Landing Page</h1>
 
-First, run the development server:
+<div align="center">
+  <h3>
+    <a href="https://next-sanity.netlify.app" target="_blank">
+      Demo
+    </a>
+  </h3>
+</div>
+
+
+
+## Overview
+
+A simple landing page built with NextJS and Sanity CMS
+
+- [Demo](https://next-sanity.netlify.app/)
+
+### Built With
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
+- NextJS
+- Sanity
+- Styled-components
+
+
+## How To Use
+
+<!-- Example: -->
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone https://github.com/kibuikaCodes/Sanity-NextJS-integration
+
+# install dependencies
+$ npm install
+
+# Start it
+$ npm run dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You will also need to provide environment variables for Sanity.
+This means you need to create a sanity project. See instructions [here](https://www.sanity.io/create?template=sanity-io/sanity-template-nextjs-landing-pages)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+SANITY_PROJECT_ID=YOUR_SANITY_PROJECT_ID_HERE
+NEXT_PUBLIC_SANITY_TOKEN=YOUR_SANITY_PROJECT_TOKEN_HERE
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Happy Hacking!!
