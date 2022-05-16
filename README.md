@@ -5,8 +5,9 @@
 <div align="center">
   <h3>
     <a href="https://next-sanity.netlify.app" target="_blank">
-      Demo
+      View Site
     </a>
+    
   </h3>
 </div>
 
